@@ -1,0 +1,2183 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<title>The Pedagogical Imperative of Friction — K-12</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<style>/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/8468078c-60a6-4cd2-b3ef-80b7e9382090.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/80d528fb-b264-434b-92f4-ccd1e9245784.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/245cc210-c092-4c6f-8184-f68bb19b6770.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/661a41e8-507e-4aba-8458-4144d9d80d72.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/4d3f7725-0f6c-49b0-9894-6691b2e04261.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/911d1628-2ef4-4a0f-8b90-20c57f4d8ee3.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/e4b99216-d251-4eee-8175-d5c02afc9198.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/0b4f30f4-ba95-4bdd-868e-4895eb2074c1.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/86977be9-56dc-4fb8-8d24-fb68d4efc5b4.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/56f6cc4c-664a-458a-b6fa-836389244cd0.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/6f1e2933-1265-4c2d-9c94-b021eebf9417.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/b0eb0eab-ff43-4eac-b80d-992c756c3e7c.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/b8bc446e-2436-47d6-b379-91376bedcaa7.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/8c1ba77f-4cc4-4ce8-aaf9-023126229de0.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/3f0e4776-51ac-4891-a985-98c7d56a0072.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/8baee57e-2267-45bb-8108-5eb7b77dc454.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/f0f9b7da-2932-4bad-aa1f-912aaa559452.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/5bf1d896-c7c7-46f9-8b5a-194ded087d8a.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/cb7532c7-0a65-4769-ba99-6a3005a7248b.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/a09b2101-1a5c-4e98-baa7-544a4319848e.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/c199eb5e-35c1-4e29-af45-90b1f83d5eab.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/8baee57e-2267-45bb-8108-5eb7b77dc454.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/f0f9b7da-2932-4bad-aa1f-912aaa559452.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/5bf1d896-c7c7-46f9-8b5a-194ded087d8a.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/cb7532c7-0a65-4769-ba99-6a3005a7248b.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/a09b2101-1a5c-4e98-baa7-544a4319848e.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/c199eb5e-35c1-4e29-af45-90b1f83d5eab.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/8baee57e-2267-45bb-8108-5eb7b77dc454.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/f0f9b7da-2932-4bad-aa1f-912aaa559452.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/5bf1d896-c7c7-46f9-8b5a-194ded087d8a.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/cb7532c7-0a65-4769-ba99-6a3005a7248b.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/a09b2101-1a5c-4e98-baa7-544a4319848e.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/c199eb5e-35c1-4e29-af45-90b1f83d5eab.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/8baee57e-2267-45bb-8108-5eb7b77dc454.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/f0f9b7da-2932-4bad-aa1f-912aaa559452.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/5bf1d896-c7c7-46f9-8b5a-194ded087d8a.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/cb7532c7-0a65-4769-ba99-6a3005a7248b.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/a09b2101-1a5c-4e98-baa7-544a4319848e.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/c199eb5e-35c1-4e29-af45-90b1f83d5eab.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/8baee57e-2267-45bb-8108-5eb7b77dc454.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/f0f9b7da-2932-4bad-aa1f-912aaa559452.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/5bf1d896-c7c7-46f9-8b5a-194ded087d8a.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/cb7532c7-0a65-4769-ba99-6a3005a7248b.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/a09b2101-1a5c-4e98-baa7-544a4319848e.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/c199eb5e-35c1-4e29-af45-90b1f83d5eab.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("assets/f37484f2-e21d-47ea-8a7e-99e9eb6a42b2.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("assets/b1e6db93-aa7e-4969-8b19-96e9be78d938.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("assets/ff683b76-c751-4380-89b4-d97f4f1403d4.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("assets/dd6ed3ae-9db1-4bbf-a02e-5100ed36d9c7.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("assets/5d1d01c4-5add-4529-aa43-403b6d3e7ab4.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("assets/35eecbc3-f50c-4399-80d0-d07b89f0911d.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/f37484f2-e21d-47ea-8a7e-99e9eb6a42b2.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/b1e6db93-aa7e-4969-8b19-96e9be78d938.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/ff683b76-c751-4380-89b4-d97f4f1403d4.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/dd6ed3ae-9db1-4bbf-a02e-5100ed36d9c7.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/5d1d01c4-5add-4529-aa43-403b6d3e7ab4.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/35eecbc3-f50c-4399-80d0-d07b89f0911d.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/f37484f2-e21d-47ea-8a7e-99e9eb6a42b2.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/b1e6db93-aa7e-4969-8b19-96e9be78d938.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/ff683b76-c751-4380-89b4-d97f4f1403d4.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/dd6ed3ae-9db1-4bbf-a02e-5100ed36d9c7.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/5d1d01c4-5add-4529-aa43-403b6d3e7ab4.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/35eecbc3-f50c-4399-80d0-d07b89f0911d.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/f37484f2-e21d-47ea-8a7e-99e9eb6a42b2.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/b1e6db93-aa7e-4969-8b19-96e9be78d938.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/ff683b76-c751-4380-89b4-d97f4f1403d4.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/dd6ed3ae-9db1-4bbf-a02e-5100ed36d9c7.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/5d1d01c4-5add-4529-aa43-403b6d3e7ab4.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/35eecbc3-f50c-4399-80d0-d07b89f0911d.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/f37484f2-e21d-47ea-8a7e-99e9eb6a42b2.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/b1e6db93-aa7e-4969-8b19-96e9be78d938.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/ff683b76-c751-4380-89b4-d97f4f1403d4.woff2") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/dd6ed3ae-9db1-4bbf-a02e-5100ed36d9c7.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/5d1d01c4-5add-4529-aa43-403b6d3e7ab4.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/35eecbc3-f50c-4399-80d0-d07b89f0911d.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<script src="assets/943fd4b5-8f03-4cc5-b3ab-98bd48e766da.js"></script>
+
+<style>
+  /* ---------- Tokens ---------- */
+  :root {
+    /* Type scale — points × 1.333 */
+    --fs-display: 96px;   /* 72pt */
+    --fs-title:   64px;   /* 48pt */
+    --fs-subtitle:44px;   /* 33pt */
+    --fs-lede:    38px;
+    --fs-body:    34px;   /* 25pt */
+    --fs-small:   28px;
+    --fs-tag:     24px;
+
+    /* Spacing */
+    --pad-x:   120px;
+    --pad-top: 100px;
+    --pad-bot: 96px;
+    --gap-title: 48px;
+    --gap-item:  28px;
+
+    /* Color — warm-neutral paper, near-black ink, ember accent */
+    --paper:   oklch(0.972 0.006 85);
+    --paper-2: oklch(0.945 0.008 80);
+    --ink:     oklch(0.20 0.012 60);
+    --ink-2:   oklch(0.42 0.010 60);
+    --ink-3:   oklch(0.62 0.010 60);
+    --rule:    oklch(0.82 0.008 70);
+    --ember:   oklch(0.55 0.13 45);
+    --ember-2: oklch(0.78 0.06 45);
+    --inkpaper:oklch(0.18 0.012 60);
+  }
+
+  html, body { margin:0; padding:0; background:#0a0a0a; }
+  body { font-family: "IBM Plex Sans", system-ui, sans-serif; color: var(--ink); }
+
+  deck-stage { background: #0a0a0a; }
+
+  section.slide {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Source Serif 4", Georgia, serif;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Common slide chrome */
+  .frame {
+    position: absolute;
+    inset: var(--pad-top) var(--pad-x) var(--pad-bot) var(--pad-x);
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Top meta strip — section number + section name on left, slide nav on right */
+  .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: var(--fs-tag);
+    color: var(--ink-3);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .meta .left { display:flex; gap: 28px; align-items:center; }
+  .meta .dot { width:8px; height:8px; background:var(--ember); border-radius:50%; display:inline-block; }
+  .meta .right { font-variant-numeric: tabular-nums; }
+
+  /* Bottom rule line */
+  .footrule {
+    position:absolute;
+    left: var(--pad-x);
+    right: var(--pad-x);
+    bottom: 56px;
+    height: 1px;
+    background: var(--rule);
+  }
+  .footline {
+    position:absolute;
+    left: var(--pad-x);
+    right: var(--pad-x);
+    bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: var(--fs-tag);
+    color: var(--ink-3);
+    letter-spacing: 0.04em;
+  }
+
+  /* Typography utilities */
+  .eyebrow {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: var(--fs-tag);
+    color: var(--ember);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  h1.title {
+    font-family: "Source Serif 4", serif;
+    font-weight: 400;
+    font-size: var(--fs-title);
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    margin: 0;
+    color: var(--ink);
+    text-wrap: balance;
+  }
+  h1.display {
+    font-family: "Source Serif 4", serif;
+    font-weight: 400;
+    font-size: var(--fs-display);
+    line-height: 1.0;
+    letter-spacing: -0.025em;
+    margin: 0;
+    color: var(--ink);
+    text-wrap: balance;
+  }
+  .subtitle {
+    font-family: "Source Serif 4", serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: var(--fs-subtitle);
+    line-height: 1.2;
+    color: var(--ink-2);
+    margin: 0;
+    text-wrap: pretty;
+  }
+  .body {
+    font-family: "Source Serif 4", serif;
+    font-weight: 400;
+    font-size: var(--fs-body);
+    line-height: 1.4;
+    color: var(--ink);
+    text-wrap: pretty;
+  }
+  .body.big { font-size: var(--fs-lede); line-height: 1.35; }
+  .small {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: var(--fs-small);
+    line-height: 1.4;
+    color: var(--ink-2);
+  }
+  .mono {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: var(--fs-tag);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+  em.ember { color: var(--ember); font-style: italic; }
+  strong { font-weight: 600; }
+
+  /* Title slide */
+  .titleslide {
+    background: var(--paper);
+  }
+  .titleslide .frame { justify-content: space-between; }
+  .titleslide .markline {
+    width: 96px; height: 4px; background: var(--ember);
+  }
+  .titleslide h1.display { max-width: 1500px; }
+  .titleslide .author {
+    display:flex; gap: 80px; align-items: baseline;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  .titleslide .author .name { font-size: var(--fs-body); color: var(--ink); font-weight:500; }
+  .titleslide .author .role { font-size: var(--fs-small); color: var(--ink-2); }
+
+  /* Section dividers */
+  section.slide.sectiondivider { background: var(--ink); color: var(--paper); }
+  section.slide.sectiondivider .frame { justify-content: center; align-items: flex-start; gap: 32px; }
+  section.slide.sectiondivider .num {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 28px;
+    color: var(--ember-2);
+    letter-spacing: 0.2em;
+  }
+  section.slide.sectiondivider h1 {
+    color: var(--paper);
+    font-family: "Source Serif 4", serif;
+    font-weight: 300;
+    font-size: 132px;
+    line-height: 0.98;
+    letter-spacing: -0.03em;
+    margin:0;
+    max-width: 1400px;
+    text-wrap: balance;
+  }
+  section.slide.sectiondivider .kicker {
+    font-family: "Source Serif 4", serif;
+    font-style: italic;
+    font-size: var(--fs-subtitle);
+    color: var(--ember-2);
+    max-width: 1100px;
+    margin-top: 24px;
+  }
+  section.slide.sectiondivider .meta { color: var(--ember-2); }
+  section.slide.sectiondivider .footrule { background: oklch(0.32 0.012 60); }
+  section.slide.sectiondivider .footline { color: var(--ember-2); }
+
+  /* ---------- Slide 2: the question we're not asking ---------- */
+  .questionslide .frame { justify-content: center; }
+  .strike-stack {
+    font-family: "Source Serif 4", serif;
+    font-size: 56px;
+    line-height: 1.4;
+    color: var(--ink-3);
+  }
+  .strike-stack .crossed { text-decoration: line-through; text-decoration-thickness: 2px; text-decoration-color: var(--ember); }
+  .strike-stack .arrow { font-family: "IBM Plex Mono", monospace; color: var(--ember); margin-right: 28px; display: inline-block; min-width: 36px; }
+  .strike-stack .live { color: var(--ink); }
+
+  /* ---------- two-column ---------- */
+  .twocol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    flex: 1;
+  }
+  .threecol {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 64px;
+    flex: 1;
+  }
+  .col h3 {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: var(--fs-tag);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ember);
+    margin: 0 0 20px 0;
+    font-weight: 500;
+  }
+  .col p { margin: 0 0 18px 0; }
+
+  /* Stage timeline */
+  .stages {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    margin-top: 56px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  .stage {
+    padding: 32px 24px 36px 24px;
+    border-right: 1px solid var(--rule);
+    position: relative;
+  }
+  .stage:last-child { border-right: none; }
+  .stage.new { background: oklch(0.96 0.02 45 / 0.5); }
+  .stage .num {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+    color: var(--ember);
+    letter-spacing: 0.1em;
+  }
+  .stage .name {
+    font-family: "Source Serif 4", serif;
+    font-size: 32px;
+    line-height: 1.1;
+    color: var(--ink);
+    margin: 12px 0 12px 0;
+    font-weight: 500;
+  }
+  .stage .what {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 24px;
+    line-height: 1.35;
+    color: var(--ink-2);
+  }
+  .stage .era {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+    color: var(--ink-3);
+    letter-spacing: 0.06em;
+    margin-top: 16px;
+  }
+  .stage .badge {
+    display: inline-block;
+    margin-left: 12px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px; color: var(--ember);
+    letter-spacing: 0.08em; text-transform: uppercase;
+    border: 1px solid var(--ember);
+    padding: 0px 8px;
+    border-radius: 2px;
+    vertical-align: 2px;
+  }
+
+  /* Numbered list cards */
+  .numlist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 56px;
+    margin-top: 24px;
+  }
+  .numcard .n {
+    font-family: "Source Serif 4", serif;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 1;
+    color: var(--ember);
+    letter-spacing: -0.04em;
+  }
+  .numcard .h {
+    font-family: "Source Serif 4", serif;
+    font-size: 38px;
+    line-height: 1.15;
+    color: var(--ink);
+    margin: 16px 0 16px 0;
+    font-weight: 500;
+    text-wrap: balance;
+  }
+  .numcard .p {
+    font-family: "Source Serif 4", serif;
+    font-size: 26px;
+    line-height: 1.4;
+    color: var(--ink-2);
+  }
+
+  /* Quadrant chart for Kapur */
+  .quadrant {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr;
+    grid-template-rows: 60px 1fr 1fr 60px;
+    flex: 1;
+    margin-top: 24px;
+  }
+  .qaxis-y {
+    grid-column: 1;
+    grid-row: 1 / 5;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    display: flex; justify-content: center; align-items: center;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+  .qhead {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--ink-3);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .qhead.top { grid-row: 1; }
+  .qhead.bot { grid-row: 4; }
+  .qhead.col1 { grid-column: 2; }
+  .qhead.col2 { grid-column: 3; }
+  .qcell {
+    border: 1px solid var(--rule);
+    padding: 36px 36px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .qcell + .qcell, .qcell.right { border-left: none; }
+  .qcell.bottom { border-top: none; }
+  .qcell .lbl {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--ink-3);
+  }
+  .qcell h4 {
+    font-family: "Source Serif 4", serif;
+    font-size: 36px;
+    line-height: 1.15;
+    margin: 12px 0 12px 0;
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .qcell p {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    color: var(--ink-2);
+    margin: 0;
+  }
+  .qcell.threat {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
+  }
+  .qcell.threat .lbl { color: var(--ember-2); }
+  .qcell.threat h4 { color: var(--paper); }
+  .qcell.threat p { color: var(--ember-2); }
+  .qcell.threat .pin {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+    color: var(--ember);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  /* Quote slide */
+  .quote { background: var(--paper-2); }
+  .quote .frame { justify-content: center; }
+  .quote .markline { width: 64px; height: 3px; background: var(--ember); margin-bottom: 32px; }
+  .quote blockquote {
+    font-family: "Source Serif 4", serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: -0.015em;
+    color: var(--ink);
+    margin: 0;
+    max-width: 1500px;
+    text-wrap: balance;
+  }
+  .quote .src {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+    color: var(--ink-3);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 56px;
+  }
+
+  /* Friction four-up */
+  .frictionGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    margin-top: 32px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    flex: 1;
+  }
+  .frictionCol {
+    border-right: 1px solid var(--rule);
+    padding: 36px 28px;
+    display: flex; flex-direction: column;
+  }
+  .frictionCol:last-child { border-right: none; }
+  .frictionCol .where {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ember);
+    margin-bottom: 12px;
+  }
+  .frictionCol h4 {
+    font-family: "Source Serif 4", serif;
+    font-size: 36px;
+    margin: 0 0 16px 0;
+    line-height: 1.1;
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .frictionCol p {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 24px;
+    line-height: 1.45;
+    color: var(--ink-2);
+    margin: 0 0 16px 0;
+  }
+  .frictionCol .threat {
+    margin-top: auto;
+    border-top: 1px solid var(--rule);
+    padding-top: 16px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    color: var(--ink);
+  }
+  .frictionCol .threat span {
+    display: block;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ember);
+    margin-bottom: 8px;
+  }
+
+  /* Productive vs exclusionary */
+  .vs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    flex: 1;
+    margin-top: 32px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  .vsCol {
+    padding: 48px 56px;
+    border-right: 1px solid var(--rule);
+  }
+  .vsCol:last-child { border-right: none; background: var(--paper-2); }
+  .vsCol .lbl {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 22px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ember);
+  }
+  .vsCol h4 {
+    font-family: "Source Serif 4", serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 1.05;
+    margin: 16px 0 28px 0;
+    color: var(--ink);
+  }
+  .vsCol ul {
+    list-style: none; padding: 0; margin: 0;
+    font-family: "Source Serif 4", serif;
+    font-size: 26px;
+    line-height: 1.45;
+    color: var(--ink-2);
+  }
+  .vsCol li {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .vsCol li:last-child { border-bottom: none; }
+  .vsCol li::before {
+    content: "—  ";
+    color: var(--ember);
+    font-family: "IBM Plex Mono", monospace;
+  }
+
+  /* Roadmap slide */
+  .roadmap {
+    flex: 1;
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 28px 48px;
+    align-content: start;
+    font-family: "Source Serif 4", serif;
+  }
+  .roadmap .n {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+    color: var(--ember);
+    letter-spacing: 0.1em;
+    padding-top: 8px;
+  }
+  .roadmap .t {
+    font-size: 40px;
+    line-height: 1.15;
+    color: var(--ink);
+    border-bottom: 1px solid var(--rule);
+    padding: 4px 0 22px 0;
+  }
+  .roadmap .t span {
+    display: block;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 24px;
+    color: var(--ink-3);
+    margin-top: 8px;
+  }
+
+  /* Big-stat slide */
+  .bigstat .frame { justify-content: center; align-items: flex-start; }
+  .bigstat .num {
+    font-family: "Source Serif 4", serif;
+    font-weight: 300;
+    font-size: 360px;
+    line-height: 0.85;
+    letter-spacing: -0.04em;
+    color: var(--ember);
+  }
+  .bigstat .num sup {
+    font-size: 120px;
+    color: var(--ink);
+    vertical-align: top;
+    margin-left: 12px;
+  }
+  .bigstat .legend {
+    max-width: 900px;
+    margin-top: 56px;
+    font-family: "Source Serif 4", serif;
+    font-size: 40px;
+    line-height: 1.2;
+    color: var(--ink);
+  }
+  .bigstat .legend em { color: var(--ember); font-style: italic; }
+
+  /* Action moves slide */
+  .moves {
+    flex: 1;
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  .move {
+    padding: 36px 32px;
+    border-right: 1px solid var(--rule);
+    display: flex; flex-direction: column;
+  }
+  .move:last-child { border-right: none; }
+  .move .area {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+    color: var(--ember);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .move h4 {
+    font-family: "Source Serif 4", serif;
+    font-size: 34px;
+    line-height: 1.15;
+    margin: 0 0 24px 0;
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .move ul {
+    list-style: none; padding: 0; margin: 0;
+    font-family: "Source Serif 4", serif;
+    font-size: 24px;
+    line-height: 1.4;
+    color: var(--ink-2);
+  }
+  .move li {
+    padding: 14px 0;
+    border-top: 1px solid var(--rule);
+  }
+  .move li:first-child { border-top: none; padding-top: 0; }
+
+  /* paradox / illustration */
+  .paradox {
+    flex: 1;
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .paradox > div {
+    padding: 40px 56px;
+    font-family: "Source Serif 4", serif;
+  }
+  .paradox > div + div { border-left: 1px solid var(--rule); background: var(--paper-2); }
+  .paradox .tag {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+    color: var(--ember);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .paradox h4 {
+    font-family: "Source Serif 4", serif;
+    font-size: 40px;
+    line-height: 1.15;
+    margin: 0 0 24px 0;
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .paradox p {
+    font-size: 24px;
+    line-height: 1.45;
+    color: var(--ink-2);
+    margin: 0;
+  }
+
+  /* assumptions broken */
+  .assumptions {
+    flex: 1; margin-top: 24px;
+    display: flex; flex-direction: column;
+    gap: 0;
+  }
+  .assump {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr;
+    gap: 40px;
+    padding: 32px 0;
+    border-top: 1px solid var(--rule);
+    align-items: baseline;
+  }
+  .assump:last-child { border-bottom: 1px solid var(--rule); }
+  .assump .n {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 26px;
+    color: var(--ember);
+    letter-spacing: 0.1em;
+  }
+  .assump .was {
+    font-family: "Source Serif 4", serif;
+    font-size: 30px;
+    line-height: 1.25;
+    color: var(--ink-3);
+    text-decoration: line-through;
+    text-decoration-color: var(--ember);
+    text-decoration-thickness: 1px;
+  }
+  .assump .now {
+    font-family: "Source Serif 4", serif;
+    font-size: 30px;
+    line-height: 1.25;
+    color: var(--ink);
+  }
+  .assump .now em { color: var(--ember); font-style: italic; }
+
+  /* closing slide */
+  section.slide.closing { background: var(--ink); color: var(--paper); }
+  section.slide.closing .frame { justify-content: center; }
+  section.slide.closing h1 {
+    font-family: "Source Serif 4", serif;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 1.35;
+    color: var(--paper);
+    margin: 0;
+    max-width: 1520px;
+    text-wrap: balance;
+  }
+  section.slide.closing h1 em { color: var(--ember-2); font-style: italic; padding-right: 6px; }
+  section.slide.closing .meta { color: oklch(0.62 0.05 45); }
+  section.slide.closing .footrule { background: oklch(0.32 0.012 60); }
+  section.slide.closing .footline { color: oklch(0.62 0.05 45); }
+  section.slide.closing .markline { width: 96px; height: 4px; background: var(--ember); margin-bottom: 40px; }
+  section.slide.closing .author {
+    margin-top: 64px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 26px;
+    color: var(--ember-2);
+    line-height: 1.5;
+  }
+  section.slide.closing .author strong { color: var(--paper); font-weight:500; }
+
+  /* Citations note */
+  .cite {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+    color: var(--ink-3);
+    letter-spacing: 0.06em;
+    margin-top: 24px;
+  }
+</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A slide-style K-12 presentation on pedagogical friction, generative AI, productive struggle, and district-level educational judgment.">
+</head>
+<body>
+<deck-stage width="1920" height="1080">
+
+<!-- ============ 1. TITLE ============ -->
+<section class="slide titleslide" data-label="01 Title">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>Qualifying Paper / Talk Edition</span></span>
+      <span class="right">National Louis University · 2026</span>
+    </div>
+    <div>
+      <div class="markline"></div>
+      <div class="eyebrow" style="margin: 28px 0 36px 0;">The Pedagogical Imperative of Friction</div>
+      <h1 class="display">Why productive struggle matters more than ever in K‑12 — in the age of generative AI.</h1>
+    </div>
+    <div class="author">
+      <div>
+        <div class="role" style="font-size:26px;">Presented by</div>
+        <div class="name">Micah J. Miner, CETL, Ed.S.</div>
+      </div>
+      <div>
+        <div class="role" style="font-size:26px;">Affiliation</div>
+        <div class="name">Director of Innovation &amp; Technology · Doctoral Candidate</div>
+      </div>
+    </div>
+  </div>
+  <div class="footline">
+    <span>A media-ecological case for K-12 leaders</span>
+    <span>01 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 2. THE QUESTION K12 IS NOT ASKING ============ -->
+<section class="slide questionslide" data-label="02 The K12 question">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>Opening · The framing problem</span></span>
+      <span class="right">02</span>
+    </div>
+    <div style="margin-top: 80px;">
+      <div class="eyebrow" style="margin-bottom: 28px;">The wrong questions are louder than the right one</div>
+      <div class="strike-stack">
+        <div><span class="arrow">×</span><span class="crossed">Should we ban AI in our schools?</span></div>
+        <div><span class="arrow">×</span><span class="crossed">How do we catch students who use it?</span></div>
+        <div><span class="arrow">×</span><span class="crossed">Which vendor offers the best classroom tool?</span></div>
+        <div style="margin-top: 36px;"><span class="arrow live">→</span><span class="live">What happens to learning when the symbolic environment children think inside is increasingly written <em class="ember">by</em> machines, not just delivered <em class="ember">by</em> them?</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section I · Reframing</span>
+    <span>02 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 3. TWO FRAMINGS ============ -->
+<section class="slide" data-label="03 Two framings">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>Two ways of framing the problem</span></span>
+      <span class="right">03</span>
+    </div>
+    <div style="margin-top: 56px;">
+      <h1 class="title" style="max-width: 1500px;">A policy question, or a question of consciousness.</h1>
+    </div>
+    <div class="twocol" style="margin-top: 64px;">
+      <div class="col">
+        <h3>Framing A · Tool adoption</h3>
+        <p class="body">AI is a productivity tool. Manage it through policy: integrity, data privacy, vendor review, acceptable use.</p>
+        <p class="body" style="color: var(--ink-2); font-style: italic;">This is where most district AI policy lives today.</p>
+      </div>
+      <div class="col">
+        <h3>Framing B · Media ecology</h3>
+        <p class="body">AI is an environment. Each new medium <em class="ember">restructures</em> how children remember, attend, reason, and know.</p>
+        <p class="body" style="color: var(--ink-2); font-style: italic;">This is the framing K-12 has not yet adopted — and the one this talk argues we need.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section I · Reframing</span>
+    <span>03 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 4. ROADMAP ============ -->
+<section class="slide" data-label="04 Roadmap">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>What we'll do in the next 30 minutes</span></span>
+      <span class="right">04</span>
+    </div>
+    <div style="margin-top: 32px;">
+      <h1 class="title">Roadmap.</h1>
+    </div>
+    <div class="roadmap">
+      <div class="n">01</div><div class="t">Stages of the symbolic environment <span>From oral cultures to algorithmic generation — and where K-12 actually sits.</span></div>
+      <div class="n">02</div><div class="t">What this does to learning <span>Productive struggle, unproductive success, and the bypass of cognition.</span></div>
+      <div class="n">03</div><div class="t">Pedagogical friction <span>Four dimensions of the response framework — head, room, world, system.</span></div>
+      <div class="n">04</div><div class="t">What changes Monday morning <span>Curriculum, advocacy, and policy moves for K-12 leaders.</span></div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section I · Reframing</span>
+    <span>04 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 5. SECTION DIVIDER 1 ============ -->
+<section class="slide sectiondivider" data-label="05 Part 1 divider">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span style="color: var(--ember);">▮</span><span>Part One</span></span>
+      <span class="right">05</span>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; justify-content: center;">
+      <div class="num">PART 01 · MEDIA ECOLOGY</div>
+      <h1>Stages of the symbolic environment.</h1>
+      <div class="kicker">Each new medium reorganizes the cognition that lives inside it. K-12 is now negotiating the fifth such transition — and the first in which the content itself is generated by machines.</div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Walter Ong · post-Ong media ecology</span>
+    <span>05 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 6. ONG'S STAGES ============ -->
+<section class="slide" data-label="06 Ong stages">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>The developmental account, extended</span></span>
+      <span class="right">06</span>
+    </div>
+    <div style="margin-top: 32px;">
+      <h1 class="title">Five stages, not three.</h1>
+      <p class="subtitle" style="margin-top: 20px; max-width: 1500px;">Ong gave us oral, literate, and broadcast. The current moment requires two further stages — one for algorithmic distribution, one for algorithmic generation.</p>
+    </div>
+    <div class="stages">
+      <div class="stage">
+        <div class="num">STAGE 01</div>
+        <div class="name">Primary orality</div>
+        <div class="what">Memory-based, communal, formulaic. Knowledge survives by repetition.</div>
+        <div class="era">PRE-LITERATE</div>
+      </div>
+      <div class="stage">
+        <div class="num">STAGE 02</div>
+        <div class="name">Literacy</div>
+        <div class="what">Writing externalizes memory. Analytical, abstract, individual interiority.</div>
+        <div class="era">PRINT ERA</div>
+      </div>
+      <div class="stage">
+        <div class="num">STAGE 03</div>
+        <div class="name">Secondary orality</div>
+        <div class="what">Broadcast retrieves orality inside literate infrastructure. Scripted spontaneity.</div>
+        <div class="era">RADIO · TV</div>
+      </div>
+      <div class="stage new">
+        <div class="num">STAGE 04 <span class="badge">NEW</span></div>
+        <div class="name">Algorithmic secondary orality</div>
+        <div class="what">Humans still author; algorithms decide what reaches whom. Feeds, not channels.</div>
+        <div class="era">SOCIAL · 2005–</div>
+      </div>
+      <div class="stage new">
+        <div class="num">STAGE 05 <span class="badge">NEW</span></div>
+        <div class="name">Tertiary algorithmicity</div>
+        <div class="what">Machines both curate <em>and</em> generate. Human authorship becomes optional at scale.</div>
+        <div class="era">GENAI · 2022–</div>
+      </div>
+    </div>
+    <p class="cite">A K-12 classroom in 2026 is operating across all five at once.</p>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section II · Theoretical framework</span>
+    <span>06 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 7. THREE ASSUMPTIONS ============ -->
+<section class="slide" data-label="07 Assumptions broken">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>Why we need a new stage at all</span></span>
+      <span class="right">07</span>
+    </div>
+    <div style="margin-top: 32px;">
+      <h1 class="title">Three assumptions that no longer hold.</h1>
+      <p class="subtitle" style="margin-top: 16px;">Ong's framework rested on three things we can no longer take for granted.</p>
+    </div>
+    <div class="assumptions">
+      <div class="assump">
+        <div class="n">01</div>
+        <div class="was">Humans originate the symbolic content.</div>
+        <div class="now">Neural networks now produce essays, summaries, analyses, images <em>without human authorship in any traditional sense.</em></div>
+      </div>
+      <div class="assump">
+        <div class="n">02</div>
+        <div class="was">Distribution follows transparent logics.</div>
+        <div class="now">Two students opening the same app see <em>different content</em> — curated by opaque, engagement-optimizing systems.</div>
+      </div>
+      <div class="assump">
+        <div class="n">03</div>
+        <div class="was">Consciousness encounters media as external.</div>
+        <div class="now">Personalized environments increasingly <em>reflect a child's prior behavior back</em> — removing the disequilibrium learning requires.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section II · Theoretical framework</span>
+    <span>07 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 8. TERTIARY ALGORITHMICITY DEFINED ============ -->
+<section class="slide quote" data-label="08 Tertiary algorithmicity defined">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>The proposed stage, in one sentence</span></span>
+      <span class="right">08</span>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; justify-content:center;">
+      <div class="markline"></div>
+      <div class="eyebrow" style="margin-bottom: 28px;">Tertiary algorithmicity (n.)</div>
+      <blockquote>The condition in which algorithmic systems both <em style="color: var(--ember); font-style: italic;">curate and generate</em> the symbolic content children learn inside — making human authorship optional at scale.</blockquote>
+      <div class="src">Miner · Qualifying Paper, 2026</div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section III · Proposed extensions</span>
+    <span>08 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 9. THREE CHARACTERISTICS ============ -->
+<section class="slide" data-label="09 Three characteristics">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>What's new about this stage, specifically</span></span>
+      <span class="right">09</span>
+    </div>
+    <div style="margin-top: 32px;">
+      <h1 class="title">Three characteristics of the new stage.</h1>
+    </div>
+    <div class="numlist" style="margin-top: 56px;">
+      <div class="numcard">
+        <div class="n">01</div>
+        <div class="h">Noetic displacement</div>
+        <div class="p">The cognitive labor of meaning-making — interpretation, composition, synthesis — can be performed by a system that has never had an experience.</div>
+      </div>
+      <div class="numcard">
+        <div class="n">02</div>
+        <div class="h">Rhetorical saturation</div>
+        <div class="p">Plausible, fluent prose floods every channel a student touches. The signal of "competent thought" is no longer a reliable indicator of thought.</div>
+      </div>
+      <div class="numcard">
+        <div class="n">03</div>
+        <div class="h">Existential abstraction</div>
+        <div class="p">The link between a claim and the person making it dissolves. Authorship — and accountability for ideas — becomes ambient.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section III · Proposed extensions</span>
+    <span>09 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 10. SECTION DIVIDER 2 ============ -->
+<section class="slide sectiondivider" data-label="10 Part 2 divider">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span style="color: var(--ember);">▮</span><span>Part Two</span></span>
+      <span class="right">10</span>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; justify-content: center;">
+      <div class="num">PART 02 · LEARNING SCIENCE</div>
+      <h1>What this does to a child who is learning.</h1>
+      <div class="kicker">Decades of research converge on one finding: durable learning requires productive struggle. Tertiary algorithmicity makes that struggle optional.</div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Dewey · Piaget · Vygotsky · Kapur · Bjork · Sweller</span>
+    <span>10 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 11. KAPUR QUADRANTS ============ -->
+<section class="slide" data-label="11 Kapur quadrants">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>Kapur's four quadrants</span></span>
+      <span class="right">11</span>
+    </div>
+    <div style="margin-top: 24px;">
+      <h1 class="title">Performance is not the same as learning.</h1>
+      <p class="subtitle" style="margin-top: 12px;">Kapur (2016) gives us a 2×2 that names the precise risk of generative AI in K-12.</p>
+    </div>
+    <div class="quadrant">
+      <div class="qaxis-y">Performance →</div>
+      <div class="qhead top col1">Without struggle</div>
+      <div class="qhead top col2">With struggle</div>
+
+      <div class="qcell threat" style="grid-column:2; grid-row:2;">
+        <span class="lbl">Quadrant of concern</span>
+        <div>
+          <h4>Unproductive success</h4>
+          <p>Correct output. No schema construction. The artifact looks like learning — the learning never occurred.</p>
+        </div>
+        <span class="pin">← Where AI defaults take students</span>
+      </div>
+      <div class="qcell" style="grid-column:3; grid-row:2;">
+        <span class="lbl">Goal state</span>
+        <div>
+          <h4>Productive success</h4>
+          <p>Correct output and genuine understanding. The student wrestled with the material.</p>
+        </div>
+      </div>
+      <div class="qcell bottom" style="grid-column:2; grid-row:3;">
+        <span class="lbl">Avoid</span>
+        <div>
+          <h4>Unproductive failure</h4>
+          <p>Wrong output, no growth. Task exceeded the learner's reach without scaffolding.</p>
+        </div>
+      </div>
+      <div class="qcell bottom right" style="grid-column:3; grid-row:3;">
+        <span class="lbl">Often the path to mastery</span>
+        <div>
+          <h4>Productive failure</h4>
+          <p>Wrong output, real learning. Struggle activates prior knowledge and prepares future learning.</p>
+        </div>
+      </div>
+      <div class="qhead bot col1" style="grid-column:2; grid-row:4;">Performance without cognitive labor</div>
+      <div class="qhead bot col2" style="grid-column:3; grid-row:4;">Performance through cognitive labor</div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section IV · Educational stakes</span>
+    <span>11 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 12. UNPRODUCTIVE SUCCESS DEFINED ============ -->
+<section class="slide quote" data-label="12 Unproductive success">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>The central educational threat</span></span>
+      <span class="right">12</span>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; justify-content:center;">
+      <div class="markline"></div>
+      <div class="eyebrow" style="margin-bottom: 28px;">Unproductive success</div>
+      <blockquote>The artifact of learning remains visible. The <em style="color: var(--ember); font-style: italic;">process</em> of learning becomes optional.</blockquote>
+      <div class="src">After Kapur (2016) · applied to K-12 under tertiary algorithmicity</div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section IV · Educational stakes</span>
+    <span>12 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 13. THIS IS NOT ABOUT INTEGRITY ============ -->
+<section class="slide" data-label="13 Not academic integrity">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>A common mistake in K-12 framing</span></span>
+      <span class="right">13</span>
+    </div>
+    <div style="margin-top: 56px;">
+      <h1 class="title" style="max-width: 1600px;">This is not, primarily, an academic integrity problem.</h1>
+    </div>
+    <div class="twocol" style="margin-top: 64px;">
+      <div class="col">
+        <h3>The integrity frame</h3>
+        <p class="body">Locates the problem in a few students who cheat. Solves it with detection tools, honor codes, locked browsers.</p>
+        <p class="body" style="color: var(--ink-2); font-style: italic;">Necessary, but insufficient — and aimed at the wrong target.</p>
+      </div>
+      <div class="col">
+        <h3>The developmental frame</h3>
+        <p class="body">Locates the problem in the <em class="ember">media environment itself,</em> whose default tendency is the bypass of cognitive labor.</p>
+        <p class="body" style="color: var(--ink-2); font-style: italic;">Students aren't lazy. The path of least resistance now leads to unproductive success.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section IV · Educational stakes</span>
+    <span>13 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 14. THREE THREATS K12 ============ -->
+<section class="slide" data-label="14 Three threats">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>What's at risk inside the K-12 classroom</span></span>
+      <span class="right">14</span>
+    </div>
+    <div style="margin-top: 32px;">
+      <h1 class="title">Three losses, K-12 specific.</h1>
+    </div>
+    <div class="numlist" style="margin-top: 48px;">
+      <div class="numcard">
+        <div class="n">01</div>
+        <div class="h">Attention &amp; the sensorium</div>
+        <div class="p">Children develop inside feeds that reward rapid consumption over deliberation, emotional response over critical evaluation. Tertiary algorithmicity adds <em>generated</em> content to this — endlessly, fluently.</div>
+      </div>
+      <div class="numcard">
+        <div class="n">02</div>
+        <div class="h">Knowledge &amp; interpretation</div>
+        <div class="p">Each prior media stage externalized memory but kept generation human. This stage externalizes the production of knowledge-like discourse itself. Students must now evaluate claims of uncertain origin.</div>
+      </div>
+      <div class="numcard">
+        <div class="n">03</div>
+        <div class="h">Agency &amp; authorship</div>
+        <div class="p">Creative agency becomes distributed between child and system. Epistemic agency confronts origin uncertainty. Dialogic agency meets simulated interlocutors that never disagree in productive ways.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section IV · Educational stakes</span>
+    <span>14 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 15. SECTION DIVIDER 3 ============ -->
+<section class="slide sectiondivider" data-label="15 Part 3 divider">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span style="color: var(--ember);">▮</span><span>Part Three</span></span>
+      <span class="right">15</span>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; justify-content: center;">
+      <div class="num">PART 03 · A RESPONSE FRAMEWORK</div>
+      <h1>Pedagogical friction.</h1>
+      <div class="kicker">Not a call to make school harder. A call to protect the specific difficulties that learning depends on — when the default of the medium is to remove them.</div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section V · Pedagogical friction</span>
+    <span>15 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 16. DEFINITION SLIDE ============ -->
+<section class="slide quote" data-label="16 Friction definition">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>Definition</span></span>
+      <span class="right">16</span>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; justify-content:center;">
+      <div class="markline"></div>
+      <div class="eyebrow" style="margin-bottom: 28px;">Pedagogical friction (n.)</div>
+      <blockquote>The intentional preservation of the cognitive, dialogic, and existential resistance that durable learning requires — when frictionless automation has become the <em style="color: var(--ember); font-style: italic;">default condition</em> of the medium.</blockquote>
+      <div class="src">In physics, friction is energy lost. In pedagogy, it's the energy through which development occurs.</div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section V · Pedagogical friction</span>
+    <span>16 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 17. FOUR DIMENSIONS ============ -->
+<section class="slide" data-label="17 Four dimensions">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>The framework, four columns</span></span>
+      <span class="right">17</span>
+    </div>
+    <div style="margin-top: 32px;">
+      <h1 class="title">Four dimensions of friction.</h1>
+      <p class="subtitle" style="margin-top: 12px;">Three phenomenological, one structural. Together they specify what K-12 has to protect.</p>
+    </div>
+    <div class="frictionGrid">
+      <div class="frictionCol">
+        <div class="where">The Head</div>
+        <h4>Noetic friction</h4>
+        <p>The internal struggle of comprehension, synthesis, and revising one's own thinking. Where schemas actually get built.</p>
+        <div class="threat"><span>Threat · Bypass</span>The model writes the analysis. The schema is never constructed.</div>
+      </div>
+      <div class="frictionCol">
+        <div class="where">The Room</div>
+        <h4>Rhetorical friction</h4>
+        <p>The dialogic struggle of defending claims to unpredictable human interlocutors. Discussion, peer review, oral defense.</p>
+        <div class="threat"><span>Threat · Simulation</span>AI provides fluent reply without genuine disagreement.</div>
+      </div>
+      <div class="frictionCol">
+        <div class="where">The World</div>
+        <h4>Existential friction</h4>
+        <p>The vulnerability of being held personally accountable for one's own thinking, in physical space, in front of others.</p>
+        <div class="threat"><span>Threat · Abstraction</span>Author and claim come unbound. Risk vanishes.</div>
+      </div>
+      <div class="frictionCol">
+        <div class="where">The System</div>
+        <h4>Infrastructural friction</h4>
+        <p>District policy, assessment design, prof. dev., the values communicated through institutional practice.</p>
+        <div class="threat"><span>Threat · Silence</span>Most current AI policy is mute on learning science.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section V · Pedagogical friction</span>
+    <span>17 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 18. PRODUCTIVE VS EXCLUSIONARY ============ -->
+<section class="slide" data-label="18 Productive vs exclusionary">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>The equity guardrail on the framework</span></span>
+      <span class="right">18</span>
+    </div>
+    <div style="margin-top: 24px;">
+      <h1 class="title">Not all friction is productive.</h1>
+      <p class="subtitle" style="margin-top: 12px; max-width: 1500px;">"Preserve struggle" without this distinction is a recipe for reproducing inequity under the language of rigor.</p>
+    </div>
+    <div class="vs">
+      <div class="vsCol">
+        <div class="lbl">Preserve →</div>
+        <h4>Productive friction</h4>
+        <ul>
+          <li>Wrestling with a difficult text</li>
+          <li>Defending an argument under critique</li>
+          <li>Composing original work from one's own understanding</li>
+          <li>Revising in response to feedback</li>
+          <li>Retrieving without notes; explaining without prompts</li>
+        </ul>
+      </div>
+      <div class="vsCol">
+        <div class="lbl">Reduce →</div>
+        <h4>Exclusionary friction</h4>
+        <ul>
+          <li>Language barriers imposed on content assessment</li>
+          <li>Inaccessible formats for students with disabilities</li>
+          <li>Procedural requirements unrelated to learning objectives</li>
+          <li>Tests of stamina misread as tests of understanding</li>
+          <li>Norms that treat one cognitive profile as the default</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section V · Pedagogical friction</span>
+    <span>18 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 19. ENGLISH LEARNER PARADOX ============ -->
+<section class="slide" data-label="19 EL paradox">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>A K-12 case the framework has to handle</span></span>
+      <span class="right">19</span>
+    </div>
+    <div style="margin-top: 24px;">
+      <h1 class="title">The English Learner paradox.</h1>
+      <p class="subtitle" style="margin-top: 12px; max-width: 1700px;">A multilingual student uses an AI translator to convert a draft from their first language into English. What just happened?</p>
+    </div>
+    <div class="paradox">
+      <div>
+        <div class="tag">Access gained</div>
+        <h4>An exclusionary barrier just dropped.</h4>
+        <p>The student can demonstrate content knowledge and join academic discourse without being filtered through a language barrier unrelated to the learning objective.</p>
+      </div>
+      <div>
+        <div class="tag">Voice lost</div>
+        <h4>Authorship may quietly flatten.</h4>
+        <p>Translation can produce grammatically correct, stylistically generic prose — removing the perspective and phrasing that make a child's writing recognizably their own.</p>
+      </div>
+    </div>
+    <p class="cite" style="margin-top: 24px;">No mechanical rule resolves this. The same tool reduces both kinds of friction at once. Distinguishing them requires situated, professional judgment — which is what the framework asks K-12 educators to develop.</p>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section V · Pedagogical friction</span>
+    <span>19 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 20. SECTION DIVIDER 4 ============ -->
+<section class="slide sectiondivider" data-label="20 Part 4 divider">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span style="color: var(--ember);">▮</span><span>Part Four</span></span>
+      <span class="right">20</span>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; justify-content: center;">
+      <div class="num">PART 04 · IMPLICATIONS</div>
+      <h1>What changes Monday morning.</h1>
+      <div class="kicker">Curriculum, advocacy, and policy moves for K-12 leaders who are tired of choosing between ban and embrace.</div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section V.D · Implications for K-12</span>
+    <span>20 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 21. THREE COLUMNS OF MOVES ============ -->
+<section class="slide" data-label="21 Moves">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>Three columns of moves</span></span>
+      <span class="right">21</span>
+    </div>
+    <div style="margin-top: 24px;">
+      <h1 class="title">Curriculum, advocacy, policy.</h1>
+      <p class="subtitle" style="margin-top: 12px;">Friction has to become a structural value, not a personal one — or it will not survive.</p>
+    </div>
+    <div class="moves">
+      <div class="move">
+        <div class="area">Curriculum</div>
+        <h4>Make thinking visible.</h4>
+        <ul>
+          <li>Assess process, not only product</li>
+          <li>Sequence: noetic struggle <em>before</em> AI assistance</li>
+          <li>Bring back oral defense, peer critique, in-class drafting</li>
+          <li>Require reflection on <em>how</em> a piece was made</li>
+          <li>Design assignments AI cannot complete in one prompt</li>
+        </ul>
+      </div>
+      <div class="move">
+        <div class="area">Advocacy</div>
+        <h4>Name friction as a protected value.</h4>
+        <ul>
+          <li>Push back on "efficiency" as the only frame</li>
+          <li>Speak from technology leadership, not against it</li>
+          <li>Equip teachers to articulate <em>why</em> struggle matters</li>
+          <li>Defend the time productive struggle requires</li>
+          <li>Bring families into the conversation early</li>
+        </ul>
+      </div>
+      <div class="move">
+        <div class="area">Policy</div>
+        <h4>Close the learning-science gap.</h4>
+        <ul>
+          <li>District AI policy must reference cognition, not only risk</li>
+          <li>Distinguish productive from exclusionary use cases</li>
+          <li>Build assessment that values process</li>
+          <li>Fund prof. dev. on situated judgment, not tool training</li>
+          <li>Audit policies for equity blind spots — DisCrit lens</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Section V.D · Implications for K-12</span>
+    <span>21 / 22</span>
+  </div>
+</section>
+
+<!-- ============ 22. CLOSING ============ -->
+<section class="slide closing" data-label="22 Closing">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span style="color: var(--ember);">▮</span><span>Closing</span></span>
+      <span class="right">22</span>
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column; justify-content:center;">
+      <div class="markline"></div>
+      <div class="eyebrow" style="margin-bottom: 28px; color: var(--ember-2);">The question to keep asking</div>
+      <h1>For whom does this difficulty <em>build capacity</em>, and for whom does it <em>restrict access</em>?</h1>
+      <div class="author">
+        <strong>Micah J. Miner, CETL, Ed.S.</strong><br>
+        Director of Innovation &amp; Technology · Doctoral Candidate, National Louis University<br>
+        <span style="font-family: 'IBM Plex Mono', monospace; letter-spacing: 0.06em;">minerclass.github.io / dissertationquestionsbeta</span>
+      </div>
+    </div>
+  </div>
+  <div class="footrule"></div>
+  <div class="footline">
+    <span class="mono">Thank you · Questions welcome</span>
+    <span>22 / 22</span>
+  </div>
+</section>
+
+</deck-stage>
+
+
+  <script>
+    document.addEventListener("keydown", (event) => {
+      const slides = Array.from(document.querySelectorAll(".slide"));
+      const current = slides.findIndex((slide) => {
+        const rect = slide.getBoundingClientRect();
+        return Math.abs(rect.top) < window.innerHeight * 0.55;
+      });
+      if (event.key === "ArrowRight" || event.key === "PageDown" || event.key === " ") {
+        event.preventDefault();
+        slides[Math.min(current + 1, slides.length - 1)]?.scrollIntoView({ behavior: "smooth" });
+      }
+      if (event.key === "ArrowLeft" || event.key === "PageUp") {
+        event.preventDefault();
+        slides[Math.max(current - 1, 0)]?.scrollIntoView({ behavior: "smooth" });
+      }
+      if (event.key === "Home") {
+        event.preventDefault();
+        slides[0]?.scrollIntoView({ behavior: "smooth" });
+      }
+      if (event.key === "End") {
+        event.preventDefault();
+        slides[slides.length - 1]?.scrollIntoView({ behavior: "smooth" });
+      }
+    });
+  </script>
+</body></html>
