@@ -6,11 +6,13 @@ This repository hosts browser-based, slide-style GitHub Pages versions of Micah 
 
 - Academic / K-12 framing deck: `https://minerclass.github.io/pedagogical-friction-iste-ascd-decks/`
 - Practitioner edition: `https://minerclass.github.io/pedagogical-friction-iste-ascd-decks/practitioner/`
+- ISTE+ASCD Expert Webinar edition: `https://minerclass.github.io/pedagogical-friction-iste-ascd-decks/iste-ew/`
 
 ## What is included
 
 - `index.html` - the browser-based slide presentation.
 - `practitioner/index.html` - the practitioner edition browser slide presentation.
+- `iste-ew/index.html` - the ISTE+ASCD Expert Webinar branded version of the practitioner deck.
 - `assets/` - local font and script assets needed by the slide deck.
 - `.nojekyll` - keeps GitHub Pages from processing the static assets.
 
