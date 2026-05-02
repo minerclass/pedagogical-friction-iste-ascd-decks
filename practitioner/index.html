@@ -1002,6 +1002,71 @@
     font-size: 24px; color: var(--ink-3); margin-top: 8px;
   }
 
+  /* Ong / Miner media stages */
+  .stage-lens {
+    flex: 1;
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  .stage-lens .stage {
+    padding: 26px 22px 24px 22px;
+    border-right: 1px solid var(--rule);
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+  }
+  .stage-lens .stage:last-child { border-right: none; }
+  .stage-lens .num {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 20px;
+    color: var(--ember);
+    letter-spacing: 0.14em;
+    margin-bottom: 18px;
+  }
+  .stage-lens h3 {
+    font-family: "Source Serif 4", serif;
+    font-size: 34px;
+    line-height: 1.05;
+    color: var(--ink);
+    margin: 0 0 16px 0;
+    font-weight: 500;
+  }
+  .stage-lens .source {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 18px;
+    color: var(--ink-3);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .stage-lens p {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 22px;
+    line-height: 1.36;
+    color: var(--ink-2);
+    margin: 0;
+  }
+  .stage-lens .stage.extension {
+    background: color-mix(in oklch, var(--ember), transparent 92%);
+  }
+  .stage-takeaway {
+    margin-top: 26px;
+    padding-top: 22px;
+    border-top: 1px solid var(--rule);
+    font-family: "Source Serif 4", serif;
+    font-size: 34px;
+    line-height: 1.2;
+    color: var(--ink);
+  }
+  .stage-takeaway em {
+    color: var(--ember);
+    font-style: italic;
+  }
+
   /* Moves slide (3 columns) */
   .moves {
     flex: 1; margin-top: 24px;
@@ -1126,7 +1191,7 @@
   </div>
   <div class="footline">
     <span>Why productive struggle matters more than ever in the age of AI</span>
-    <span>01 / 18</span>
+    <span>01 / 19</span>
   </div>
 </section>
 
@@ -1149,7 +1214,7 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Section I · Naming what we are seeing</span><span>02 / 18</span></div>
+  <div class="footline"><span>Section I · Naming what we are seeing</span><span>02 / 19</span></div>
 </section>
 
 <!-- 3. THE QUESTION (rephrased per take) -->
@@ -1170,15 +1235,64 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Section I · Naming what we are seeing</span><span>03 / 18</span></div>
+  <div class="footline"><span>Section I · Naming what we are seeing</span><span>03 / 19</span></div>
 </section>
 
 <!-- 4. ROADMAP -->
-<section class="slide" data-label="04 Roadmap" data-screen-label="04 04 Roadmap" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="3">
+<section class="slide" data-label="04 Media stages" data-screen-label="04 04 Media stages" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="3">
+  <div class="frame">
+    <div class="meta">
+      <span class="left"><span class="dot"></span><span>Context lens · Ong to generative AI</span></span>
+      <span class="right">04</span>
+    </div>
+    <div>
+      <div class="eyebrow">Why this is not just another tool shift</div>
+      <h1 class="title">Five communication and consciousness stages.</h1>
+      <p class="subtitle" style="margin-top: 12px; max-width: 1500px;">Each stage changes what gets externalized and what learners must still do for themselves.</p>
+    </div>
+    <div class="stage-lens">
+      <div class="stage">
+        <div class="num">01</div>
+        <h3>Primary orality</h3>
+        <div class="source">Ong</div>
+        <p>Knowledge lives in speech, memory, story, ritual, and communal interaction.</p>
+      </div>
+      <div class="stage">
+        <div class="num">02</div>
+        <h3>Literacy</h3>
+        <div class="source">Ong</div>
+        <p>Writing externalizes memory and makes abstract analysis, revision, and private reflection possible.</p>
+      </div>
+      <div class="stage">
+        <div class="num">03</div>
+        <h3>Secondary orality</h3>
+        <div class="source">Ong</div>
+        <p>Broadcast media restores immediacy and shared experience on top of literate systems.</p>
+      </div>
+      <div class="stage extension">
+        <div class="num">04</div>
+        <h3>Algorithmic orality</h3>
+        <div class="source">Miner extension</div>
+        <p>Social media keeps human content, but algorithmic systems curate visibility, reward performance, and shape participation.</p>
+      </div>
+      <div class="stage extension">
+        <div class="num">05</div>
+        <h3>Tertiary algorithmicity</h3>
+        <div class="source">Miner extension</div>
+        <p>Generative AI simulates dialogue and synthesis, allowing parts of reflection, debate, and composition to be outsourced.</p>
+      </div>
+    </div>
+    <div class="stage-takeaway">Pedagogical friction matters because each shift can externalize more of the work that once formed <em>human judgment</em>.</div>
+  </div>
+  <div class="footline"><span>Section I · Naming what we are seeing</span><span>04 / 19</span></div>
+</section>
+
+<!-- 5. ROADMAP -->
+<section class="slide" data-label="05 Roadmap" data-screen-label="05 05 Roadmap" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="4">
   <div class="frame">
     <div class="meta">
       <span class="left"><span class="dot"></span><span>What we'll do today</span></span>
-      <span class="right">04</span>
+      <span class="right">05</span>
     </div>
     <div style="margin-top: 32px;">
       <h1 class="title">Roadmap.</h1>
@@ -1191,15 +1305,15 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Section I · Naming what we are seeing</span><span>04 / 18</span></div>
+  <div class="footline"><span>Section I · Naming what we are seeing</span><span>05 / 19</span></div>
 </section>
 
 <!-- 5. SECTION 2 DIVIDER: THE RISK -->
-<section class="slide sectiondivider" data-label="05 Part 2 divider" data-screen-label="05 05 Part 2 divider" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="4">
+<section class="slide sectiondivider" data-label="06 Part 2 divider" data-screen-label="06 06 Part 2 divider" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="5">
   <div class="frame">
     <div class="meta">
       <span class="left"><span style="color: var(--ember);">▮</span><span>Part Two</span></span>
-      <span class="right">05</span>
+      <span class="right">06</span>
     </div>
     <div style="flex:1; display:flex; flex-direction:column; justify-content: center;">
       <div class="num">PART 02 · NAMING THE RISK</div>
@@ -1208,15 +1322,15 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Section II · The risk</span><span>05 / 18</span></div>
+  <div class="footline"><span>Section II · The risk</span><span>06 / 19</span></div>
 </section>
 
 <!-- 6. PRODUCTIVE STRUGGLE EXPLAINED -->
-<section class="slide" data-label="06 Productive struggle" data-screen-label="06 06 Productive struggle" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="5">
+<section class="slide" data-label="07 Productive struggle" data-screen-label="07 07 Productive struggle" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="6">
   <div class="frame">
     <div class="meta">
       <span class="left"><span class="dot"></span><span>What learning science actually says</span></span>
-      <span class="right">06</span>
+      <span class="right">07</span>
     </div>
     <div style="margin-top: 32px;">
       <h1 class="title">Learning is not built from answers. It's built from <em class="ember">struggle.</em></h1>
@@ -1241,15 +1355,15 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Section II · The risk</span><span>06 / 18</span></div>
+  <div class="footline"><span>Section II · The risk</span><span>07 / 19</span></div>
 </section>
 
 <!-- 7. KAPUR QUADRANTS -->
-<section class="slide" data-label="07 Kapur quadrants" data-screen-label="07 07 Kapur quadrants" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="6">
+<section class="slide" data-label="08 Kapur quadrants" data-screen-label="08 08 Kapur quadrants" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="7">
   <div class="frame">
     <div class="meta">
       <span class="left"><span class="dot"></span><span>Performance is not the same as learning</span></span>
-      <span class="right">07</span>
+      <span class="right">08</span>
     </div>
     <div style="margin-top: 24px;">
       <h1 class="title">Four outcomes — only two of them are learning.</h1>
@@ -1294,15 +1408,15 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Section II · The risk</span><span>07 / 18</span></div>
+  <div class="footline"><span>Section II · The risk</span><span>08 / 19</span></div>
 </section>
 
 <!-- 8. UNPRODUCTIVE SUCCESS DEFINED -->
-<section class="slide quote" data-label="08 Unproductive success" data-screen-label="08 08 Unproductive success" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="7">
+<section class="slide quote" data-label="09 Unproductive success" data-screen-label="09 09 Unproductive success" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="8">
   <div class="frame">
     <div class="meta">
       <span class="left"><span class="dot"></span><span>The thing to watch for in your buildings</span></span>
-      <span class="right">08</span>
+      <span class="right">09</span>
     </div>
     <div style="flex:1; display:flex; flex-direction:column; justify-content:center;">
       <div class="markline"></div>
@@ -1312,15 +1426,15 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Section II · The risk</span><span>08 / 18</span></div>
+  <div class="footline"><span>Section II · The risk</span><span>09 / 19</span></div>
 </section>
 
 <!-- 9. NOT INTEGRITY -->
-<section class="slide" data-label="09 Not integrity" data-screen-label="09 09 Not integrity" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="8">
+<section class="slide" data-label="10 Not integrity" data-screen-label="10 10 Not integrity" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="9">
   <div class="frame">
     <div class="meta">
       <span class="left"><span class="dot"></span><span>Why the integrity frame keeps misfiring</span></span>
-      <span class="right">09</span>
+      <span class="right">10</span>
     </div>
     <div style="margin-top: 56px;">
       <h1 class="title" style="max-width: 1600px;">This is not, primarily, a cheating problem.</h1>
@@ -1339,15 +1453,15 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Section II · The risk</span><span>09 / 18</span></div>
+  <div class="footline"><span>Section II · The risk</span><span>10 / 19</span></div>
 </section>
 
 <!-- 10. SECTION 3 DIVIDER: FRAMEWORK -->
-<section class="slide sectiondivider" data-label="10 Part 3 divider" data-screen-label="10 10 Part 3 divider" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="9">
+<section class="slide sectiondivider" data-label="11 Part 3 divider" data-screen-label="11 11 Part 3 divider" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="10">
   <div class="frame">
     <div class="meta">
       <span class="left"><span style="color: var(--ember);">▮</span><span>Part Three</span></span>
-      <span class="right">10</span>
+      <span class="right">11</span>
     </div>
     <div style="flex:1; display:flex; flex-direction:column; justify-content: center;">
       <div class="num">PART 03 · A RESPONSE FRAMEWORK</div>
@@ -1356,15 +1470,15 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Section III · Pedagogical friction</span><span>10 / 18</span></div>
+  <div class="footline"><span>Section III · Pedagogical friction</span><span>11 / 19</span></div>
 </section>
 
 <!-- 11. FRICTION DEFINED -->
-<section class="slide quote" data-label="11 Friction definition" data-screen-label="11 11 Friction definition" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="10">
+<section class="slide quote" data-label="12 Friction definition" data-screen-label="12 12 Friction definition" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="11">
   <div class="frame">
     <div class="meta">
       <span class="left"><span class="dot"></span><span>Definition for practitioners</span></span>
-      <span class="right">11</span>
+      <span class="right">12</span>
     </div>
     <div style="flex:1; display:flex; flex-direction:column; justify-content:center;">
       <div class="markline"></div>
@@ -1374,15 +1488,15 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Section III · Pedagogical friction</span><span>11 / 18</span></div>
+  <div class="footline"><span>Section III · Pedagogical friction</span><span>12 / 19</span></div>
 </section>
 
 <!-- 12. FOUR DIMENSIONS -->
-<section class="slide" data-label="12 Four dimensions" data-screen-label="12 12 Four dimensions" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="11">
+<section class="slide" data-label="13 Four dimensions" data-screen-label="13 13 Four dimensions" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="12">
   <div class="frame">
     <div class="meta">
       <span class="left"><span class="dot"></span><span>The framework, four columns</span></span>
-      <span class="right">12</span>
+      <span class="right">13</span>
     </div>
     <div style="margin-top: 32px;">
       <h1 class="title">Four kinds of friction worth protecting.</h1>
@@ -1416,15 +1530,15 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Section III · Pedagogical friction</span><span>12 / 18</span></div>
+  <div class="footline"><span>Section III · Pedagogical friction</span><span>13 / 19</span></div>
 </section>
 
 <!-- 13. PRODUCTIVE VS EXCLUSIONARY -->
-<section class="slide" data-label="13 Productive vs exclusionary" data-screen-label="13 13 Productive vs exclusionary" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="12">
+<section class="slide" data-label="14 Productive vs exclusionary" data-screen-label="14 14 Productive vs exclusionary" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="13">
   <div class="frame">
     <div class="meta">
       <span class="left"><span class="dot"></span><span>The equity guardrail</span></span>
-      <span class="right">13</span>
+      <span class="right">14</span>
     </div>
     <div style="margin-top: 24px;">
       <h1 class="title">Not all friction is good for learning.</h1>
@@ -1456,15 +1570,15 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Section III · Pedagogical friction</span><span>13 / 18</span></div>
+  <div class="footline"><span>Section III · Pedagogical friction</span><span>14 / 19</span></div>
 </section>
 
 <!-- 14. EL PARADOX -->
-<section class="slide" data-label="14 EL paradox" data-screen-label="14 14 EL paradox" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="13">
+<section class="slide" data-label="15 EL paradox" data-screen-label="15 15 EL paradox" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="14">
   <div class="frame">
     <div class="meta">
       <span class="left"><span class="dot"></span><span>A K-12 case the framework has to handle</span></span>
-      <span class="right">14</span>
+      <span class="right">15</span>
     </div>
     <div style="margin-top: 24px;">
       <h1 class="title">The English Learner paradox.</h1>
@@ -1485,15 +1599,15 @@
     <p class="cite" style="margin-top: 24px;">No mechanical rule resolves this. Distinguishing productive from exclusionary friction requires <em style="color: var(--ember); font-style: italic;">situated, professional judgment</em> — which is what this framework asks of us.</p>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Section III · Pedagogical friction</span><span>14 / 18</span></div>
+  <div class="footline"><span>Section III · Pedagogical friction</span><span>15 / 19</span></div>
 </section>
 
 <!-- 15. SECTION 4 DIVIDER: LEADERSHIP -->
-<section class="slide sectiondivider" data-label="15 Part 4 divider" data-screen-label="15 15 Part 4 divider" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="14">
+<section class="slide sectiondivider" data-label="16 Part 4 divider" data-screen-label="16 16 Part 4 divider" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="15">
   <div class="frame">
     <div class="meta">
       <span class="left"><span style="color: var(--ember);">▮</span><span>Part Four</span></span>
-      <span class="right">15</span>
+      <span class="right">16</span>
     </div>
     <div style="flex:1; display:flex; flex-direction:column; justify-content: center;">
       <div class="num">PART 04 · LEADERSHIP MOVES</div>
@@ -1502,15 +1616,15 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Section IV · Leadership moves</span><span>15 / 18</span></div>
+  <div class="footline"><span>Section IV · Leadership moves</span><span>16 / 19</span></div>
 </section>
 
 <!-- 16. THREE COLUMNS OF MOVES -->
-<section class="slide" data-label="16 Moves" data-screen-label="16 16 Moves" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="15">
+<section class="slide" data-label="17 Moves" data-screen-label="17 17 Moves" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="16">
   <div class="frame">
     <div class="meta">
       <span class="left"><span class="dot"></span><span>Three columns of moves</span></span>
-      <span class="right">16</span>
+      <span class="right">17</span>
     </div>
     <div style="margin-top: 24px;">
       <h1 class="title">Curriculum, advocacy, policy.</h1>
@@ -1553,15 +1667,15 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Section IV · Leadership moves</span><span>16 / 18</span></div>
+  <div class="footline"><span>Section IV · Leadership moves</span><span>17 / 19</span></div>
 </section>
 
 <!-- 17. GLOSSARY (the scholarly bridge) -->
-<section class="slide" data-label="17 Glossary bridge" data-screen-label="17 17 Glossary bridge" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="16">
+<section class="slide" data-label="18 Glossary bridge" data-screen-label="18 18 Glossary bridge" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="17">
   <div class="frame">
     <div class="meta">
       <span class="left"><span class="dot"></span><span>For those who want the research vocabulary</span></span>
-      <span class="right">17</span>
+      <span class="right">18</span>
     </div>
     <div style="margin-top: 24px;">
       <h1 class="title">Today's words → the research words.</h1>
@@ -1610,15 +1724,15 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Bridge · From classroom to scholarship</span><span>17 / 18</span></div>
+  <div class="footline"><span>Bridge · From classroom to scholarship</span><span>18 / 19</span></div>
 </section>
 
 <!-- 18. CLOSING -->
-<section class="slide closing" data-label="18 Closing" data-screen-label="18 18 Closing" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="17">
+<section class="slide closing" data-label="19 Closing" data-screen-label="19 19 Closing" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="18">
   <div class="frame">
     <div class="meta">
       <span class="left"><span style="color: var(--ember);">▮</span><span>Closing</span></span>
-      <span class="right">18</span>
+      <span class="right">19</span>
     </div>
     <div style="flex:1; display:flex; flex-direction:column; justify-content:center;">
       <div class="markline"></div>
@@ -1632,7 +1746,7 @@
     </div>
   </div>
   <div class="footrule"></div>
-  <div class="footline"><span>Thank you · Questions welcome</span><span>18 / 18</span></div>
+  <div class="footline"><span>Thank you · Questions welcome</span><span>19 / 19</span></div>
 </section>
 
 </deck-stage>
