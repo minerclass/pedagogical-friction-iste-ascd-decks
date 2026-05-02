@@ -1,10 +1,16 @@
 # The Pedagogical Imperative of Friction — K-12
 
-This repository hosts a browser-based, slide-style GitHub Pages version of Micah J. Miner's K-12 presentation on pedagogical friction, generative AI, productive struggle, and district-level educational judgment.
+This repository hosts browser-based, slide-style GitHub Pages versions of Micah J. Miner's K-12 presentations on pedagogical friction, generative AI, productive struggle, and district-level educational judgment.
+
+## Published decks
+
+- Academic / K-12 framing deck: `https://minerclass.github.io/pedagogical-friction-iste-ascd-decks/`
+- Practitioner edition: `https://minerclass.github.io/pedagogical-friction-iste-ascd-decks/practitioner/`
 
 ## What is included
 
 - `index.html` - the browser-based slide presentation.
+- `practitioner/index.html` - the practitioner edition browser slide presentation.
 - `assets/` - local font and script assets needed by the slide deck.
 - `.nojekyll` - keeps GitHub Pages from processing the static assets.
 
