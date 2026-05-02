@@ -1,5 +1,8 @@
 node_modules/
 scratch/
+output/
+src/
+package.json
 assets/*.bin
 .DS_Store
 Thumbs.db
