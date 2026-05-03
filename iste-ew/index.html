@@ -805,6 +805,41 @@
   section.slide.sectiondivider .footrule { background: oklch(0.32 0.012 60); }
   section.slide.sectiondivider .footline { color: var(--ember-2); }
 
+  /* Conceptual lead slide */
+  section.slide.conceptlead {
+    background:
+      linear-gradient(90deg, var(--ember) 0 132px, transparent 132px),
+      var(--paper-2);
+  }
+  section.slide.conceptlead .frame {
+    justify-content: center;
+  }
+  .conceptlead .leadblock {
+    max-width: 1540px;
+    padding-left: 26px;
+    border-left: 5px solid var(--ember);
+  }
+  .conceptlead .eyebrow {
+    margin-bottom: 34px;
+  }
+  .conceptlead h1.title {
+    font-size: 98px;
+    line-height: 1.02;
+    max-width: 1400px;
+  }
+  .conceptlead .subtitle {
+    margin-top: 34px;
+    max-width: 1320px;
+    font-size: 46px;
+    line-height: 1.2;
+  }
+  .conceptlead .meta {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    right: 120px;
+  }
+
   /* Quote slide */
   .quote { background: var(--paper-2); }
   .quote .frame { justify-content: center; }
@@ -1492,16 +1527,16 @@
 </section>
 
 <!-- 4. ROADMAP -->
-<section class="slide" data-label="06 Media stages" data-screen-label="06 06 Media stages" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="5">
+<section class="slide conceptlead" data-label="06 Media stages" data-screen-label="06 06 Media stages" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="5">
   <div class="frame">
     <div class="meta">
       <span class="left"><span class="dot"></span><span>Context lens · Ong to generative AI</span></span>
       <span class="right">06</span>
     </div>
-    <div>
+    <div class="leadblock">
       <div class="eyebrow">Why this is not just another tool shift</div>
       <h1 class="title">Five communication and consciousness stages.</h1>
-      <p class="subtitle" style="margin-top: 12px; max-width: 1500px;">Each stage changes what gets externalized and what learners must still do for themselves.</p>
+      <p class="subtitle">Each stage changes what gets externalized and what learners must still do for themselves.</p>
     </div>
   </div>
   <div class="footline"><span>Section I · Naming what we are seeing</span><span>06 / 22</span></div>
