@@ -931,7 +931,7 @@
   }
   .frictionCol {
     border-right: 1px solid var(--rule); padding: 36px 28px;
-    display: flex; flex-direction: column;
+    display: grid; grid-template-rows: auto auto minmax(260px, 1fr) auto;
   }
   .frictionCol:last-child { border-right: none; }
   .frictionCol .where {
@@ -945,10 +945,10 @@
   }
   .frictionCol p {
     font-family: "IBM Plex Sans", sans-serif; font-size: 24px;
-    line-height: 1.45; color: var(--ink-2); margin: 0 0 16px 0;
+    line-height: 1.45; color: var(--ink-2); margin: 0;
   }
   .frictionCol .threat {
-    margin-top: auto; border-top: 1px solid var(--rule); padding-top: 16px;
+    border-top: 1px solid var(--rule); padding-top: 16px;
     font-family: "IBM Plex Sans", sans-serif; font-size: 24px;
     line-height: 1.4; color: var(--ink);
   }
