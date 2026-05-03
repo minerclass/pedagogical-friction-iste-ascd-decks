@@ -882,10 +882,10 @@
   /* Quadrant chart */
   .quadrant {
     display: grid; grid-template-columns: 80px 1fr 1fr;
-    grid-template-rows: 60px 1fr 1fr 60px; flex: 1; margin-top: 24px;
+    grid-template-rows: 92px 1fr 1fr; flex: 1; margin-top: 24px;
   }
   .qaxis-y {
-    grid-column: 1; grid-row: 1 / 5;
+    grid-column: 1; grid-row: 1 / 4;
     writing-mode: vertical-rl; transform: rotate(180deg);
     display: flex; justify-content: center; align-items: center;
     font-family: "IBM Plex Mono", monospace; font-size: 24px;
@@ -894,13 +894,19 @@
   .qhead {
     font-family: "IBM Plex Mono", monospace; font-size: 24px;
     letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3);
-    display: flex; align-items: center; justify-content: center;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 10px; text-align: center;
+  }
+  .qhead .labor {
+    font-size: 18px; letter-spacing: 0.1em; color: var(--ember);
   }
   .qcell {
     border: 1px solid var(--rule); padding: 36px 36px;
     display: flex; flex-direction: column; justify-content: space-between;
   }
-  .qcell + .qcell, .qcell.right { border-left: none; }
+  .qcell.left { background: color-mix(in srgb, var(--ew-orange), transparent 95%); border-right-width: 3px; }
+  .qcell.right { background: color-mix(in srgb, var(--ew-blue), transparent 95%); border-left: none; }
+  .qcell.top { border-bottom-width: 3px; }
   .qcell.bottom { border-top: none; }
   .qcell .lbl {
     font-family: "IBM Plex Mono", monospace; font-size: 24px;
@@ -914,7 +920,7 @@
     font-family: "IBM Plex Sans", sans-serif; font-size: 24px;
     line-height: 1.4; color: var(--ink-2); margin: 0;
   }
-  .qcell.threat { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .qcell.threat { background: color-mix(in srgb, var(--ink), white 10%); color: var(--paper); border-color: var(--rule); border-right-color: var(--rule); }
   .qcell.threat .lbl { color: var(--ember-2); }
   .qcell.threat h4 { color: var(--paper); }
   .qcell.threat p { color: var(--ember-2); }
@@ -1553,40 +1559,38 @@
     </div>
     <div class="quadrant">
       <div class="qaxis-y">Performance →</div>
-      <div class="qhead" style="grid-column:2; grid-row:1;">Without struggle</div>
-      <div class="qhead" style="grid-column:3; grid-row:1;">With struggle</div>
+      <div class="qhead" style="grid-column:2; grid-row:1;"><span>Without struggle</span><span class="labor">Performance without cognitive labor</span></div>
+      <div class="qhead" style="grid-column:3; grid-row:1;"><span>With struggle</span><span class="labor">Performance through cognitive labor</span></div>
 
-      <div class="qcell threat" style="grid-column:2; grid-row:2;">
+      <div class="qcell threat left top" style="grid-column:2; grid-row:2;">
         <span class="lbl">Quadrant of concern</span>
         <div>
           <h4>Unproductive success</h4>
           <p>Correct output. No understanding built. The artifact looks like learning — the learning never happened.</p>
         </div>
-        <span class="pin">← Where AI defaults take students</span>
+        <span class="pin">← Where AI takes students</span>
       </div>
-      <div class="qcell" style="grid-column:3; grid-row:2;">
+      <div class="qcell right top" style="grid-column:3; grid-row:2;">
         <span class="lbl">Goal state</span>
         <div>
           <h4>Productive success</h4>
           <p>Correct output and genuine understanding. The student wrestled with the material.</p>
         </div>
       </div>
-      <div class="qcell bottom" style="grid-column:2; grid-row:3;">
+      <div class="qcell left bottom" style="grid-column:2; grid-row:3;">
         <span class="lbl">Avoid</span>
         <div>
           <h4>Unproductive failure</h4>
           <p>Wrong output, no growth. Task exceeded reach without scaffolding.</p>
         </div>
       </div>
-      <div class="qcell bottom right" style="grid-column:3; grid-row:3;">
+      <div class="qcell right bottom" style="grid-column:3; grid-row:3;">
         <span class="lbl">Often the path to mastery</span>
         <div>
           <h4>Productive failure</h4>
           <p>Wrong output, real learning. Struggle activates prior knowledge and prepares future learning.</p>
         </div>
       </div>
-      <div class="qhead" style="grid-column:2; grid-row:4;">Performance without cognitive labor</div>
-      <div class="qhead" style="grid-column:3; grid-row:4;">Performance through cognitive labor</div>
     </div>
   </div>
   <div class="footrule"></div>
