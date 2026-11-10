@@ -38,7 +38,7 @@ For a standalone repository, use:
 The public URL should follow this pattern:
 
 ```text
-https://minerclass.github.io/pedagogical-friction-iste-ascd-deck/
+https://minerclass.github.io/pedagogical-friction-iste-ascd-decks/
 ```
 
 ## Privacy note
